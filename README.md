@@ -1,2 +1,3 @@
 # WebScarping
-Projects related to Web crwaling.
+
+This python file scrapes data from two urls simultaneously.One is the main scraper which gives us the names of the university.Using this name we create a new scraper function which will get us the additional information of the individual university like Former name, Number of students ,etc. All this data is compiled into a dataframe object. Then we use the in built python library of sqllite3 which gives us the opportunity of creating a Schema on the go. Since the dataset is very small this sql library gives us efficient and robust framework to store the data in database and also return a result set based on the query to return the row using name and former name of the university in the where clause.
